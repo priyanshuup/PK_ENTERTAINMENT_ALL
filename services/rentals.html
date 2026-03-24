@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Theme init (runs before paint to prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('lumix-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipment Rentals — LUMIX Events Mumbai</title>
+  <meta name="description" content="Professional event equipment rentals in Mumbai — PA systems, DJ consoles, moving heads, lasers, LED backdrops, fog machines. Daily rates, delivery included.">
+  <link rel="stylesheet" href="../css/variables.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/sections.css">
+  <link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body data-page="rentals">
+<div id="navbar-placeholder"></div>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-bg"></div><div class="ph-grid"></div>
+  <div class="ph-content">
+    <div class="eyebrow">Equipment Rentals</div>
+    <h1 class="section-title">Pro Gear, <span class="accent">Delivered</span> to Your Event</h1>
+    <p class="section-sub">Premium audio, lighting, special effects and décor equipment — daily rental rates, Mumbai-wide delivery, setup and pickup included.</p>
+    <div style="display:flex;gap:var(--s3);flex-wrap:wrap;margin-top:var(--s5)">
+      <a href="../contact.html?service=Rental" class="btn btn-gold">Get Rental Quote</a>
+      <a href="../contact.html" class="btn btn-ghost">Custom Packages →</a>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="section section-white"><div class="container">
+  <div class="stats-row">
+    <div class="stat-item reveal"><div class="stat-num">50+</div><div class="stat-label">Equipment Types</div></div>
+    <div class="stat-item reveal rev-1"><div class="stat-num">500+</div><div class="stat-label">Rental Days/Year</div></div>
+    <div class="stat-item reveal rev-2"><div class="stat-num">24h</div><div class="stat-label">Booking Turnaround</div></div>
+    <div class="stat-item reveal rev-3"><div class="stat-num">100%</div><div class="stat-label">Insured Equipment</div></div>
+  </div>
+</div></section>
+
+<!-- RENTALS FILTER + GRID -->
+<section class="section section-alt"><div class="container">
+  <div class="section-header centered reveal">
+    <div class="eyebrow">Our Inventory</div>
+    <h2 class="section-title">Browse Our <span class="accent">Equipment</span></h2>
+    <p class="section-sub">All items include Mumbai delivery, setup, and pickup. Multi-day discounts available.</p>
+  </div>
+  <div id="rentals-filter"></div>
+  <div id="rentals-grid" style="margin-top:var(--s6)"></div>
+</div></section>
+
+<!-- WHY RENT FROM US -->
+<section class="section section-white"><div class="container">
+  <div class="section-header centered reveal">
+    <div class="eyebrow">Why Choose Us</div>
+    <h2 class="section-title">The LUMIX <span class="accent">Difference</span></h2>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:var(--s5);max-width:1000px;margin:0 auto">
+    <div class="why-card reveal rev-1"><div class="why-icon">🔧</div><div class="why-title">Professional Grade Only</div><p class="why-desc">Pioneer, JBL, QSC, CHAUVET, Elation — the same gear used in top Mumbai venues and clubs.</p></div>
+    <div class="why-card reveal rev-2"><div class="why-icon">🚚</div><div class="why-title">Delivery + Setup</div><p class="why-desc">Our crew delivers, positions, cables, tests and hands over ready-to-use equipment. No hassle.</p></div>
+    <div class="why-card reveal rev-3"><div class="why-icon">📞</div><div class="why-title">On-Call Support</div><p class="why-desc">Technician available on call during your event. Any issue gets resolved within 30 minutes.</p></div>
+    <div class="why-card reveal rev-4"><div class="why-icon">💳</div><div class="why-title">Transparent Pricing</div><p class="why-desc">No hidden charges. Daily rates quoted upfront. Volume discounts for multi-day or multi-item bookings.</p></div>
+    <div class="why-card reveal rev-5"><div class="why-icon">📦</div><div class="why-title">Same-Day Booking</div><p class="why-desc">Emergency rentals accepted with 12-hour notice, subject to availability. We accommodate last-minute needs.</p></div>
+    <div class="why-card reveal rev-6"><div class="why-icon">🛡️</div><div class="why-title">Fully Insured</div><p class="why-desc">All equipment is insured. In case of technical failure, we provide replacements at no extra charge.</p></div>
+  </div>
+</div></section>
+
+<!-- HOW IT WORKS -->
+<section class="section section-alt"><div class="container">
+  <div class="section-header centered reveal">
+    <div class="eyebrow">Process</div>
+    <h2 class="section-title">How Rentals <span class="accent">Work</span></h2>
+  </div>
+  <div class="rental-steps">
+    <div class="rs-step reveal rev-1">
+      <div class="rs-num">01</div>
+      <div class="rs-content">
+        <div class="rs-title">Tell Us What You Need</div>
+        <p class="rs-desc">Share your event date, venue size and equipment requirements via WhatsApp, call or our contact form.</p>
+      </div>
+    </div>
+    <div class="rs-step reveal rev-2">
+      <div class="rs-num">02</div>
+      <div class="rs-content">
+        <div class="rs-title">Get a Custom Quote</div>
+        <p class="rs-desc">We send a detailed quote with itemised pricing, delivery cost and setup time within 2 hours.</p>
+      </div>
+    </div>
+    <div class="rs-step reveal rev-3">
+      <div class="rs-num">03</div>
+      <div class="rs-content">
+        <div class="rs-title">Confirm & Book</div>
+        <p class="rs-desc">Advance payment secures your dates. We confirm the booking and delivery schedule in writing.</p>
+      </div>
+    </div>
+    <div class="rs-step reveal rev-4">
+      <div class="rs-num">04</div>
+      <div class="rs-content">
+        <div class="rs-title">Delivery, Setup & Support</div>
+        <p class="rs-desc">Crew arrives early, sets up everything, runs a sound/lighting check and stays on call throughout.</p>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+<!-- TESTIMONIALS -->
+<section class="section section-white"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Client Love</div><h2 class="section-title">What They <span class="accent">Say</span></h2></div>
+  <div class="testi-grid" id="rentals-testimonials"></div>
+</div></section>
+
+<!-- CTA -->
+<section class="section section-alt"><div class="container"><div class="cta-banner reveal"><div class="cta-inner">
+  <div class="eyebrow" style="color:var(--gold-light);justify-content:center">Equipment Ready for Your Event</div>
+  <h2 class="section-title" style="color:#fff;text-align:center;margin-top:var(--s2)">Book Your <span class="accent">Rental</span> Now</h2>
+  <p class="section-sub" style="color:rgba(255,255,255,.5);text-align:center;margin-inline:auto">Weekend dates book fast. Secure your equipment with just a call or message.</p>
+  <div class="cta-actions">
+    <a href="../contact.html?service=Rental" class="btn btn-gold btn-xl">Get a Rental Quote</a>
+    <a href="tel:+919876543210" class="btn btn-ghost btn-xl" style="color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2)">📞 Call Now</a>
+  </div>
+</div></div></div></section>
+
+<div id="footer-placeholder"></div>
+<script src="../js/data/data.js"></script>
+<script src="../js/components/Components.js"></script>
+<script src="../js/main.js"></script>
+<script src="../js/pages.js"></script>
+</body></html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Theme init (runs before paint to prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('lumix-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUMIX — DJ · Photography · Weddings · Events · Mumbai</title>
+  <meta name="description" content="Mumbai's premier event company. DJ services, cinematic photography, wedding planning, full event management and professional equipment rentals.">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body data-page="home">
+
+<div id="navbar-placeholder"></div>
+
+<!-- ══════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════ -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-deco"></div>
+  <div class="hero-wrap">
+    <div class="hero-left">
+
+      <div class="hero-eyebrow">
+        <span class="hero-dot"></span>
+        Mumbai's Premier Full-Service Event Company
+      </div>
+
+      <h1 class="hero-title">
+        <span class="ht-block">Your Event,</span>
+        <span class="ht-block ht-gold">Every Detail,</span>
+        <span class="ht-block ht-italic">One Team.</span>
+      </h1>
+
+      <p class="hero-desc">
+        Weddings · Photography · DJ & Sound · Events · Rentals — everything your celebration needs, delivered with passion and precision by one expert crew.
+      </p>
+
+      <!-- Service pills — shows all offerings right away -->
+      <div class="hero-pills">
+        <a href="services/events.html"      class="hero-pill hero-pill-featured"><span>💍</span> Weddings</a>
+        <a href="services/photography.html" class="hero-pill"><span>📷</span> Photography</a>
+        <a href="services/dj.html"          class="hero-pill"><span>🎧</span> DJ & Sound</a>
+        <a href="services/events.html"      class="hero-pill"><span>🎉</span> Corporate Events</a>
+        <a href="services/events.html"      class="hero-pill"><span>🎂</span> Birthdays</a>
+        <a href="services/rentals.html"     class="hero-pill"><span>🔊</span> Rentals</a>
+      </div>
+
+      <div class="hero-actions">
+        <a href="contact.html" class="btn btn-gold btn-xl">Plan Your Event →</a>
+        <a href="gallery.html" class="btn btn-ghost btn-xl">View Our Work</a>
+      </div>
+
+      <div class="hero-trust">
+        <div class="hero-trust-item"><div class="hero-trust-num">500+</div><div class="hero-trust-lbl">Events Done</div></div>
+        <div class="hero-trust-item"><div class="hero-trust-num">8 Yrs</div><div class="hero-trust-lbl">Experience</div></div>
+        <div class="hero-trust-item"><div class="hero-trust-num">98%</div><div class="hero-trust-lbl">Satisfaction</div></div>
+        <div class="hero-trust-item"><div class="hero-trust-num">50+</div><div class="hero-trust-lbl">Crew Members</div></div>
+      </div>
+    </div>
+
+    <!-- Right panel — visible on desktop -->
+    <div class="hero-panel">
+      <!-- Gold card: All services -->
+      <div class="hp-card gold-grad">
+        <div class="hp-card-head">
+          <div class="hp-icon white">🎊</div>
+          <div>
+            <div class="hp-title white">One Team. Every Event.</div>
+            <div class="hp-sub white">Weddings · Photography · DJ · Events · Rentals</div>
+          </div>
+        </div>
+        <div class="hp-chips">
+          <span class="hp-chip white">💍 Weddings</span>
+          <span class="hp-chip white">📷 Photography</span>
+          <span class="hp-chip white">🎧 DJ & Sound</span>
+          <span class="hp-chip white">🎉 Events</span>
+          <span class="hp-chip white">🎂 Birthdays</span>
+          <span class="hp-chip white">🔊 Rentals</span>
+        </div>
+      </div>
+      <!-- Service quick-links (all 5) -->
+      <div class="hp-card">
+        <div class="hp-card-head">
+          <div class="hp-icon light">⚡</div>
+          <div><div class="hp-title">Quick Explore</div><div class="hp-sub dim">Jump to any service</div></div>
+        </div>
+        <div class="hp-svc-row">
+          <a href="services/events.html"      class="hp-svc"><span class="hps-icon">💍</span><span class="hps-lbl">Wedding</span></a>
+          <a href="services/photography.html" class="hp-svc"><span class="hps-icon">📷</span><span class="hps-lbl">Photo</span></a>
+          <a href="services/dj.html"          class="hp-svc"><span class="hps-icon">🎧</span><span class="hps-lbl">DJ</span></a>
+          <a href="services/events.html"      class="hp-svc"><span class="hps-icon">🎉</span><span class="hps-lbl">Events</span></a>
+          <a href="services/rentals.html"     class="hp-svc"><span class="hps-icon">🔊</span><span class="hps-lbl">Rental</span></a>
+        </div>
+      </div>
+      <!-- Rating + trust -->
+      <div class="hp-card hp-trust-row">
+        <div class="hp-trust-block">
+          <div class="hp-trust-num">4.9★</div>
+          <div class="hp-trust-lbl">280+ Reviews</div>
+        </div>
+        <div class="hp-trust-sep"></div>
+        <div class="hp-trust-block">
+          <div class="hp-trust-num">500+</div>
+          <div class="hp-trust-lbl">Events Done</div>
+        </div>
+        <div class="hp-trust-sep"></div>
+        <div class="hp-trust-block">
+          <div class="hp-trust-num">8 Yrs</div>
+          <div class="hp-trust-lbl">In Mumbai</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     MARQUEE STRIP — scrolling event types
+══════════════════════════════════════════════════ -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <div class="marquee-inner">
+      <span class="mq-item"><span class="mq-dot"></span>Wedding Planning</span>
+      <span class="mq-item"><span class="mq-dot"></span>Cinematic Photography</span>
+      <span class="mq-item"><span class="mq-dot"></span>DJ & Sound Systems</span>
+      <span class="mq-item"><span class="mq-dot"></span>Corporate Events</span>
+      <span class="mq-item"><span class="mq-dot"></span>Birthday Parties</span>
+      <span class="mq-item"><span class="mq-dot"></span>Drone Aerials</span>
+      <span class="mq-item"><span class="mq-dot"></span>Equipment Rentals</span>
+      <span class="mq-item"><span class="mq-dot"></span>Sangeet Nights</span>
+      <span class="mq-item"><span class="mq-dot"></span>Concert Production</span>
+      <span class="mq-item"><span class="mq-dot"></span>LED Backdrops</span>
+      <span class="mq-item"><span class="mq-dot"></span>Pre-Wedding Shoots</span>
+      <span class="mq-item"><span class="mq-dot"></span>MC Hosting</span>
+      <!-- duplicate for seamless loop -->
+      <span class="mq-item"><span class="mq-dot"></span>Wedding Planning</span>
+      <span class="mq-item"><span class="mq-dot"></span>Cinematic Photography</span>
+      <span class="mq-item"><span class="mq-dot"></span>DJ & Sound Systems</span>
+      <span class="mq-item"><span class="mq-dot"></span>Corporate Events</span>
+      <span class="mq-item"><span class="mq-dot"></span>Birthday Parties</span>
+      <span class="mq-item"><span class="mq-dot"></span>Drone Aerials</span>
+      <span class="mq-item"><span class="mq-dot"></span>Equipment Rentals</span>
+      <span class="mq-item"><span class="mq-dot"></span>Sangeet Nights</span>
+      <span class="mq-item"><span class="mq-dot"></span>Concert Production</span>
+      <span class="mq-item"><span class="mq-dot"></span>LED Backdrops</span>
+      <span class="mq-item"><span class="mq-dot"></span>Pre-Wedding Shoots</span>
+      <span class="mq-item"><span class="mq-dot"></span>MC Hosting</span>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════════
+     SERVICES OVERVIEW — all 4 at a glance
+══════════════════════════════════════════════════ -->
+<section class="section section-white" id="services">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <div class="eyebrow">What We Do</div>
+      <h2 class="section-title">One Team. <span class="accent">Every Event.</span></h2>
+      <p class="section-sub">From the first note to the last frame — everything your event needs, delivered by one professional crew.</p>
+    </div>
+    <div id="svc-overview" class="svc-grid"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     WEDDING SECTION — dedicated, detailed
+══════════════════════════════════════════════════ -->
+<section class="section section-alt" id="weddings">
+  <div class="container">
+    <div class="wedding-split">
+
+      <!-- Visual -->
+      <div class="wedding-vis reveal">
+        <div class="wedding-main-img">💍</div>
+        <div class="wedding-float-img">🌸</div>
+        <div class="wedding-stat-tag">
+          <div class="wst-num">200+</div>
+          <div class="wst-lbl">Weddings</div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div>
+        <div class="section-header reveal">
+          <div class="eyebrow">Wedding Specialists</div>
+          <h2 class="section-title">Your Dream Wedding,<br><em><span class="accent">Flawlessly</span></em> Executed</h2>
+          <p class="section-sub">From the first venue visit to the final farewell — we handle every detail so you can be fully present in your own moment.</p>
+        </div>
+
+        <div class="wedding-feats">
+          <div class="w-feat reveal rev-1">
+            <div class="w-feat-icon">💍</div>
+            <div class="w-feat-body">
+              <h4>Full Wedding Planning</h4>
+              <p>Venue scouting, vendor coordination, décor, catering and day-of management. One dedicated planner for everything.</p>
+            </div>
+          </div>
+          <div class="w-feat reveal rev-2">
+            <div class="w-feat-icon">📷</div>
+            <div class="w-feat-body">
+              <h4>Cinematic Photography & Film</h4>
+              <p>Dual photographers, drone aerials, candid and traditional coverage. A cinematic film you'll watch for generations.</p>
+            </div>
+          </div>
+          <div class="w-feat reveal rev-3">
+            <div class="w-feat-icon">🎧</div>
+            <div class="w-feat-body">
+              <h4>Sangeet & Reception DJ</h4>
+              <p>Custom playlists, live MC, moving lights, and a sound system that fills any venue. The floor stays packed all night.</p>
+            </div>
+          </div>
+          <div class="w-feat reveal rev-4">
+            <div class="w-feat-icon">🏮</div>
+            <div class="w-feat-body">
+              <h4>Décor & Equipment</h4>
+              <p>LED backdrops, fairy lights, floral setups, fog machines — all from our own rental inventory.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:var(--s4);flex-wrap:wrap" class="reveal">
+          <a href="services/events.html"      class="btn btn-gold btn-lg">Plan My Wedding</a>
+          <a href="services/photography.html" class="btn btn-outline-gold btn-lg">Wedding Photography</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     PHOTOGRAPHY SECTION — dedicated, light theme
+══════════════════════════════════════════════════ -->
+<section class="section section-white" id="photography">
+  <div class="container">
+    <div class="photo-split">
+
+      <!-- Content first on this side -->
+      <div>
+        <div class="section-header reveal">
+          <div class="eyebrow">Photography & Film</div>
+          <h2 class="section-title">Every Frame,<br><em><span class="accent">A Story</span></em></h2>
+          <p class="section-sub">We don't just take photos — we craft visual stories that capture emotions, laughter, and love in their most authentic form.</p>
+        </div>
+
+        <div class="photo-feats">
+          <div class="p-feat reveal rev-1">
+            <div class="p-feat-icon">🎬</div>
+            <div class="p-feat-body">
+              <strong>Cinematic Wedding Films</strong>
+              <span>15–20 min documentary-style films shot in 4K, colour-graded and delivered digitally.</span>
+            </div>
+          </div>
+          <div class="p-feat reveal rev-2">
+            <div class="p-feat-icon">🚁</div>
+            <div class="p-feat-body">
+              <strong>Drone Aerial Shots</strong>
+              <span>Breathtaking outdoor, venue and crowd shots from above — unique perspectives every time.</span>
+            </div>
+          </div>
+          <div class="p-feat reveal rev-3">
+            <div class="p-feat-icon">📸</div>
+            <div class="p-feat-body">
+              <strong>Candid + Traditional Coverage</strong>
+              <span>Dual photographer setup — raw candid moments alongside planned traditional portraits.</span>
+            </div>
+          </div>
+          <div class="p-feat reveal rev-4">
+            <div class="p-feat-icon">📱</div>
+            <div class="p-feat-body">
+              <strong>Instagram Reels</strong>
+              <span>5 short, shareable reels edited and ready to post — for every platform.</span>
+            </div>
+          </div>
+          <div class="p-feat reveal rev-5">
+            <div class="p-feat-icon">🖼️</div>
+            <div class="p-feat-body">
+              <strong>Luxury Photo Albums</strong>
+              <span>Printed, bound and delivered to your doorstep — a physical treasure to keep forever.</span>
+            </div>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s6)" class="reveal">
+          <a href="services/photography.html" class="btn btn-gold btn-lg">View Photography</a>
+          <a href="gallery.html"              class="btn btn-outline-gold btn-lg">Browse Gallery</a>
+        </div>
+      </div>
+
+      <!-- Visual grid — light-themed placeholder cells -->
+      <div class="photo-vis-grid reveal">
+        <div class="photo-cell tall featured">
+          <span>💑</span>
+          <div class="photo-cell-lbl">Pre-Wedding Shoot</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:var(--s3)">
+          <div class="photo-cell">
+            <span>🎬</span>
+            <div class="photo-cell-lbl">Cinematic Film</div>
+          </div>
+          <div class="photo-cell">
+            <span>🚁</span>
+            <div class="photo-cell-lbl">Drone Aerials</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     DJ SECTION
+══════════════════════════════════════════════════ -->
+<section class="section dj-section" id="dj">
+  <div class="container">
+    <div class="dj-split">
+
+      <!-- Visual -->
+      <div class="dj-vis reveal">
+        <div class="dj-screen">
+          <div class="dj-screen-glow">🎛️</div>
+        </div>
+        <div class="dj-pills">
+          <div class="dj-pill">Pioneer XDJ-RX3</div>
+          <div class="dj-pill">JBL Line Array</div>
+          <div class="dj-pill">Moving Heads</div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div style="padding-top:var(--s7)">
+        <div class="section-header reveal">
+          <div class="eyebrow">DJ Services</div>
+          <h2 class="section-title">Drop the <span class="accent">Beat</span></h2>
+          <p class="section-sub">Mumbai's most sought-after DJ crew. Premium Pioneer rigs, massive sound, and lights that transform any space into an experience.</p>
+        </div>
+
+        <div class="dj-pkg-rows" id="home-dj-rows"></div>
+
+        <div style="display:flex;gap:var(--s4);flex-wrap:wrap;margin-top:var(--s7)" class="reveal">
+          <a href="services/dj.html" class="btn btn-gold btn-lg">All DJ Packages →</a>
+          <a href="contact.html"     class="btn btn-outline-gold btn-lg">Custom Quote</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     GALLERY PREVIEW
+══════════════════════════════════════════════════ -->
+<section class="section section-white" id="gallery">
+  <div class="container">
+    <div class="section-header reveal" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:var(--s4)">
+      <div>
+        <div class="eyebrow">Our Work</div>
+        <h2 class="section-title">500+ <span class="accent">Moments</span></h2>
+        <p class="section-sub">A glimpse into the events we've brought to life across Mumbai.</p>
+      </div>
+      <a href="gallery.html" class="btn btn-ghost">Full Gallery →</a>
+    </div>
+    <div id="home-gallery-preview"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     WHY CHOOSE US
+══════════════════════════════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <div class="eyebrow">Why LUMIX</div>
+      <h2 class="section-title">Crafted with <span class="accent">Precision</span></h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-card reveal rev-1">
+        <div class="why-icon">🎯</div>
+        <div class="why-title">End-to-End Ownership</div>
+        <p class="why-desc">One team handles everything — no third-party chaos. You deal with us, we handle the rest.</p>
+      </div>
+      <div class="why-card reveal rev-2">
+        <div class="why-icon">🔧</div>
+        <div class="why-title">Premium Equipment</div>
+        <p class="why-desc">Pioneer DJ systems, JBL / QSC line arrays, CHAUVET lighting rigs, and drone cinematography.</p>
+      </div>
+      <div class="why-card reveal rev-3">
+        <div class="why-icon">⏱️</div>
+        <div class="why-title">Always On Time</div>
+        <p class="why-desc">Setup completed hours before your guests arrive. Zero delays, zero excuses, every time.</p>
+      </div>
+      <div class="why-card reveal rev-4">
+        <div class="why-icon">🌟</div>
+        <div class="why-title">Personalised Experience</div>
+        <p class="why-desc">Every event gets a dedicated coordinator and a custom plan built around your vision.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     TESTIMONIALS
+══════════════════════════════════════════════════ -->
+<section class="section section-white">
+  <div class="container">
+    <div class="section-header centered reveal">
+      <div class="eyebrow">Client Love</div>
+      <h2 class="section-title">What They <span class="accent">Say</span></h2>
+    </div>
+    <div class="testi-grid" id="home-testimonials"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     CTA
+══════════════════════════════════════════════════ -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="cta-banner reveal">
+      <div class="cta-inner">
+        <div class="eyebrow" style="color:var(--gold-light);justify-content:center">Let's Create Something Special</div>
+        <h2 class="section-title" style="color:#fff;text-align:center;margin-top:var(--s2)">Ready to Make It <span class="accent">Epic?</span></h2>
+        <p class="section-sub" style="color:rgba(255,255,255,.5);text-align:center;margin-inline:auto">Tell us about your event. We'll craft the perfect plan and the perfect night.</p>
+        <div class="cta-actions">
+          <a href="contact.html"       class="btn btn-gold btn-xl">Get a Free Quote</a>
+          <a href="tel:+919876543210"  class="btn btn-ghost btn-xl" style="color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2)">📞 Call Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="js/data/data.js"></script>
+<script src="js/components/Components.js"></script>
+<script src="js/main.js"></script>
+<script src="js/pages.js"></script>
+</body>
+</html>

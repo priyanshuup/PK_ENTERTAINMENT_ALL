@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Theme init (runs before paint to prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('lumix-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DJ Services — LUMIX Events Mumbai</title>
+  <link rel="stylesheet" href="../css/variables.css"><link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/navbar.css"><link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/sections.css"><link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body data-page="dj">
+<div id="navbar-placeholder"></div>
+<section class="page-hero"><div class="ph-bg"></div><div class="ph-grid"></div>
+  <div class="ph-content"><div class="eyebrow">DJ Services</div>
+    <h1 class="section-title">Drop the <span class="accent">Beat</span></h1>
+    <p class="section-sub">Mumbai's most sought-after DJ crew. Pioneer rigs, massive sound, and lights that transform any space.</p></div>
+</section>
+<section class="section section-white"><div class="container">
+  <div class="stats-row">
+    <div class="stat-item reveal"><div class="stat-num">300+</div><div class="stat-label">DJ Events</div></div>
+    <div class="stat-item reveal rev-1"><div class="stat-num">10+</div><div class="stat-label">Setups Available</div></div>
+    <div class="stat-item reveal rev-2"><div class="stat-num">50K</div><div class="stat-label">Max Crowd Served</div></div>
+    <div class="stat-item reveal rev-3"><div class="stat-num">15+</div><div class="stat-label">Genres Covered</div></div>
+  </div>
+</div></section>
+<section class="section section-alt"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Pricing</div>
+    <h2 class="section-title">DJ <span class="accent">Packages</span></h2>
+    <p class="section-sub">Every package includes sound engineering, setup, teardown and a dedicated coordinator.</p></div>
+  <div id="dj-packages-grid"></div>
+  <p style="text-align:center;margin-top:var(--s6);color:var(--text-4);font-size:var(--text-sm)" class="reveal">* Custom packages available for large-scale or multi-day events. <a href="../contact.html" style="color:var(--gold)">Contact us.</a></p>
+</div></section>
+<section class="section section-white"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Every Package Includes</div><h2 class="section-title">Always <span class="accent">Included</span></h2></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--s5);max-width:900px;margin:0 auto">
+    <div class="why-card reveal rev-1"><div class="why-icon">🎛️</div><div class="why-title">Pioneer Equipment</div><p class="why-desc">XDJ-RX3 / CDJ-3000 + DJM-900NXS2 — industry standard, always.</p></div>
+    <div class="why-card reveal rev-2"><div class="why-icon">🔊</div><div class="why-title">Professional PA System</div><p class="why-desc">JBL, QSC or Pioneer line arrays matched to your venue size.</p></div>
+    <div class="why-card reveal rev-3"><div class="why-icon">💡</div><div class="why-title">Lighting Package</div><p class="why-desc">Moving heads, LED wash and intelligent lighting every booking.</p></div>
+    <div class="why-card reveal rev-4"><div class="why-icon">🎙️</div><div class="why-title">MC & Hosting</div><p class="why-desc">High energy anchoring and crowd engagement, Hindi & English.</p></div>
+    <div class="why-card reveal rev-5"><div class="why-icon">📋</div><div class="why-title">Pre-event Consultation</div><p class="why-desc">We plan your setlist, timeline and special moments in advance.</p></div>
+    <div class="why-card reveal rev-6"><div class="why-icon">🔧</div><div class="why-title">Setup & Teardown</div><p class="why-desc">Full crew arrives 3–5 hours early. Complete teardown after.</p></div>
+  </div>
+</div></section>
+<section class="section section-alt"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Reviews</div><h2 class="section-title">What Clients <span class="accent">Say</span></h2></div>
+  <div class="testi-grid" id="dj-testimonials"></div>
+</div></section>
+<section class="section section-white"><div class="container"><div class="cta-banner reveal"><div class="cta-inner">
+  <h2 class="section-title" style="color:#fff;text-align:center">Ready to <span class="accent">Book Your DJ?</span></h2>
+  <p class="section-sub" style="color:rgba(255,255,255,.5);text-align:center;margin-inline:auto">Dates fill up fast — especially weekends and festive season.</p>
+  <div class="cta-actions">
+    <a href="../contact.html?service=DJ Services" class="btn btn-gold btn-lg">Book a DJ Now</a>
+    <a href="../contact.html" class="btn btn-ghost btn-lg" style="color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2)">Custom Quote</a>
+  </div>
+</div></div></div></section>
+<div id="footer-placeholder"></div>
+<script src="../js/data/data.js"></script><script src="../js/components/Components.js"></script>
+<script src="../js/main.js"></script><script src="../js/pages.js"></script>
+</body></html>

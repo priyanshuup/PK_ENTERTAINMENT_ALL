@@ -1,0 +1,174 @@
+/* ============================================================
+   LUMIX — Design Tokens  |  Dark (default) + Light themes
+============================================================ */
+
+/* ── Shared / invariant ────────────────────────────────── */
+:root {
+  /* Gold palette — same in both themes */
+  --gold:        #C8A84B;
+  --gold-light:  #E2C472;
+  --gold-deep:   #A8882A;
+
+  /* Typography */
+  --font-display: 'Cormorant', serif;
+  --font-heading: 'Playfair Display', serif;
+  --font-body:    'DM Sans', sans-serif;
+  --font-label:   'DM Sans', sans-serif;
+
+  /* Scale */
+  --text-xs:   0.72rem;
+  --text-sm:   0.85rem;
+  --text-base: 1rem;
+  --text-lg:   1.125rem;
+  --text-xl:   1.35rem;
+  --text-2xl:  1.7rem;
+  --text-3xl:  2.2rem;
+  --text-4xl:  3rem;
+  --text-5xl:  4.5rem;
+  --text-6xl:  6.5rem;
+
+  /* Spacing */
+  --s1:  4px;  --s2:  8px;  --s3:  12px; --s4:  16px;
+  --s5:  24px; --s6:  32px; --s7:  48px; --s8:  64px;
+  --s9:  96px; --s10: 128px;
+
+  /* Layout */
+  --max-w:  1400px;
+  --pad-x:  clamp(20px, 4vw, 72px);
+
+  /* Radius */
+  --r-sm:   3px;
+  --r:      6px;
+  --r-lg:   12px;
+  --r-xl:   20px;
+  --r-full: 9999px;
+
+  /* Motion */
+  --ease:        cubic-bezier(0.4,0,0.2,1);
+  --ease-out:    cubic-bezier(0,0,0.2,1);
+  --ease-spring: cubic-bezier(0.34,1.56,0.64,1);
+  --fast:   180ms;
+  --mid:    320ms;
+  --slow:   500ms;
+
+  /* Z-index */
+  --z-base:    1;
+  --z-card:    10;
+  --z-sticky:  100;
+  --z-overlay: 200;
+  --z-modal:   300;
+}
+
+/* ══════════════════════════════════════════════════════════
+   DARK THEME (default)
+══════════════════════════════════════════════════════════ */
+:root,
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  /* Backgrounds */
+  --bg:        #0C0C10;
+  --bg-2:      #121218;
+  --bg-3:      #1A1A22;
+  --surface:   #16161E;
+  --surface-2: #1E1E28;
+
+  /* Gold derivatives */
+  --gold-pale:   rgba(200,168,75,0.10);
+  --gold-dim:    rgba(200,168,75,0.07);
+  --gold-border: rgba(200,168,75,0.22);
+  --gold-glow:   rgba(200,168,75,0.28);
+
+  /* Accent */
+  --accent:     #5BA3E0;
+  --accent-dim: rgba(91,163,224,0.10);
+
+  /* Text */
+  --text:   #F2EDE4;
+  --text-2: #C8C0B0;
+  --text-3: #807868;
+  --text-4: #504840;
+
+  /* Borders */
+  --border:   rgba(200,168,75,0.18);
+  --border-2: rgba(255,255,255,0.07);
+  --border-3: rgba(255,255,255,0.04);
+
+  /* Shadows */
+  --shadow-xs:   0 2px 8px  rgba(0,0,0,0.45);
+  --shadow-sm:   0 4px 16px rgba(0,0,0,0.50);
+  --shadow:      0 8px 32px rgba(0,0,0,0.55);
+  --shadow-lg:   0 20px 60px rgba(0,0,0,0.65);
+  --shadow-gold: 0 8px 40px rgba(200,168,75,0.22);
+
+  /* Navbar bg */
+  --navbar-bg: rgba(12,12,16,0.97);
+  --topbar-bg: #1A1408;
+
+  /* Section alternates */
+  --section-alt-bg:   var(--bg-2);
+  --section-warm-bg:  var(--bg-3);
+  --section-white-bg: var(--surface);
+
+  /* Footer */
+  --footer-bg: #08080C;
+}
+
+/* ══════════════════════════════════════════════════════════
+   LIGHT THEME
+══════════════════════════════════════════════════════════ */
+[data-theme="light"] {
+  color-scheme: light;
+
+  /* Backgrounds */
+  --bg:        #FDFAF5;
+  --bg-2:      #F8F3EA;
+  --bg-3:      #F2EBE0;
+  --surface:   #FFFFFF;
+  --surface-2: #FAF7F2;
+
+  /* Gold derivatives */
+  --gold-pale:   #F5EDD8;
+  --gold-dim:    rgba(184,146,42,0.08);
+  --gold-border: rgba(184,146,42,0.22);
+  --gold-glow:   rgba(184,146,42,0.18);
+
+  /* Gold overrides for light */
+  --gold:       #B8922A;
+  --gold-light: #D4AA4A;
+  --gold-deep:  #8A6B1A;
+
+  /* Accent */
+  --accent:     #2A5C8A;
+  --accent-dim: rgba(42,92,138,0.08);
+
+  /* Text */
+  --text:   #1C1610;
+  --text-2: #4A4030;
+  --text-3: #8A7A60;
+  --text-4: #B8A890;
+
+  /* Borders */
+  --border:   rgba(184,146,42,0.18);
+  --border-2: rgba(28,22,16,0.08);
+  --border-3: rgba(28,22,16,0.04);
+
+  /* Shadows */
+  --shadow-xs:   0 2px 8px  rgba(28,22,16,0.06);
+  --shadow-sm:   0 4px 16px rgba(28,22,16,0.08);
+  --shadow:      0 8px 32px rgba(28,22,16,0.10);
+  --shadow-lg:   0 20px 60px rgba(28,22,16,0.14);
+  --shadow-gold: 0 8px 40px rgba(184,146,42,0.18);
+
+  /* Navbar bg */
+  --navbar-bg: rgba(253,250,245,0.97);
+  --topbar-bg: var(--gold);
+
+  /* Section alternates */
+  --section-alt-bg:   var(--bg-2);
+  --section-warm-bg:  var(--bg-3);
+  --section-white-bg: var(--surface);
+
+  /* Footer */
+  --footer-bg: #1C1610;
+}

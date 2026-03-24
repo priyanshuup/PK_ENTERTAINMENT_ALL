@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Theme init (runs before paint to prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('lumix-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photography & Film — LUMIX Events Mumbai</title>
+  <link rel="stylesheet" href="../css/variables.css"><link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/navbar.css"><link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/sections.css"><link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body data-page="photography">
+<div id="navbar-placeholder"></div>
+
+<section class="page-hero"><div class="ph-bg"></div><div class="ph-grid"></div>
+  <div class="ph-content">
+    <div class="eyebrow">Photography & Film</div>
+    <h1 class="section-title">Every Frame, <span class="accent">A Story</span></h1>
+    <p class="section-sub">Cinematic films, candid captures, drone aerials, and stunning portraits — from intimate portraits to full wedding films.</p>
+  </div>
+</section>
+
+<!-- Stats -->
+<section class="section section-white"><div class="container">
+  <div class="stats-row">
+    <div class="stat-item reveal"><div class="stat-num">1200+</div><div class="stat-label">Events Captured</div></div>
+    <div class="stat-item reveal rev-1"><div class="stat-num">4K</div><div class="stat-label">All Films Delivered</div></div>
+    <div class="stat-item reveal rev-2"><div class="stat-num">48 Hr</div><div class="stat-label">Preview Delivery</div></div>
+    <div class="stat-item reveal rev-3"><div class="stat-num">10+</div><div class="stat-label">Crew Photographers</div></div>
+  </div>
+</div></section>
+
+<!-- Packages -->
+<section class="section section-alt"><div class="container">
+  <div class="section-header centered reveal">
+    <div class="eyebrow">Packages</div>
+    <h2 class="section-title">Photography <span class="accent">Plans</span></h2>
+    <p class="section-sub">Choose what fits your event. Every package includes high-resolution editing, online gallery delivery, and a personal photo consultant.</p>
+  </div>
+  <div id="photo-packages-grid"></div>
+</div></section>
+
+<!-- What's included details -->
+<section class="section section-white"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Our Process</div><h2 class="section-title">How We <span class="accent">Work</span></h2></div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:var(--s5);max-width:900px;margin:0 auto">
+    <div class="why-card reveal rev-1"><div class="why-icon">📋</div><div class="why-title">Pre-event Briefing</div><p class="why-desc">We meet you or call to understand your vision, shot list, family details and special moments you want captured.</p></div>
+    <div class="why-card reveal rev-2"><div class="why-icon">📸</div><div class="why-title">Day-of Coverage</div><p class="why-desc">Our team is there before you arrive and stays until you're done. Every angle, every emotion, every second.</p></div>
+    <div class="why-card reveal rev-3"><div class="why-icon">🎨</div><div class="why-title">Professional Editing</div><p class="why-desc">Every photo is individually colour-graded and retouched. No filters, no presets — just beautiful, natural looks.</p></div>
+    <div class="why-card reveal rev-4"><div class="why-icon">☁️</div><div class="why-title">Fast Online Delivery</div><p class="why-desc">Your gallery is delivered via a private online link. Download originals, share with family, order prints — all in one place.</p></div>
+    <div class="why-card reveal rev-5"><div class="why-icon">📦</div><div class="why-title">Physical Deliverables</div><p class="why-desc">Luxury albums, USB drives and archival prints available for all packages. Built to last a lifetime.</p></div>
+    <div class="why-card reveal rev-6"><div class="why-icon">🎬</div><div class="why-title">Cinematic Films</div><p class="why-desc">Feature-length films, teaser reels, Instagram shorts — shot in 4K with professional colour grading and music licensing.</p></div>
+  </div>
+</div></section>
+
+<!-- Gallery preview -->
+<section class="section section-alt"><div class="container">
+  <div class="section-header reveal" style="display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:var(--s4)">
+    <div><div class="eyebrow">Our Work</div><h2 class="section-title">Photography <span class="accent">Portfolio</span></h2></div>
+    <a href="../gallery.html" class="btn btn-ghost">Full Gallery →</a>
+  </div>
+  <div id="photo-gallery-preview"></div>
+</div></section>
+
+<!-- Testimonials -->
+<section class="section section-white"><div class="container">
+  <div class="section-header centered reveal"><div class="eyebrow">Reviews</div><h2 class="section-title">What Clients <span class="accent">Say</span></h2></div>
+  <div class="testi-grid" id="photo-testimonials"></div>
+</div></section>
+
+<!-- CTA -->
+<section class="section section-alt"><div class="container"><div class="cta-banner reveal"><div class="cta-inner">
+  <h2 class="section-title" style="color:#fff;text-align:center">Ready to <span class="accent">Capture It?</span></h2>
+  <p class="section-sub" style="color:rgba(255,255,255,.5);text-align:center;margin-inline:auto">Dates fill up fast — book your photographer today.</p>
+  <div class="cta-actions">
+    <a href="../contact.html?service=Photography" class="btn btn-gold btn-lg">Book Photography</a>
+    <a href="../gallery.html" class="btn btn-ghost btn-lg" style="color:rgba(255,255,255,.7);border-color:rgba(255,255,255,.2)">View Gallery</a>
+  </div>
+</div></div></div></section>
+
+<div id="footer-placeholder"></div>
+<script src="../js/data/data.js"></script><script src="../js/components/Components.js"></script>
+<script src="../js/main.js"></script><script src="../js/pages.js"></script>
+</body></html>

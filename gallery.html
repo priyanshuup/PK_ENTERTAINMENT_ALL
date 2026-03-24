@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <!-- Theme init (runs before paint to prevent flash) -->
+  <script>
+    (function(){
+      var t = localStorage.getItem('lumix-theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', t);
+    })();
+  </script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — LUMIX Events Mumbai</title>
+  <link rel="stylesheet" href="css/variables.css"><link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/navbar.css"><link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css"><link rel="stylesheet" href="css/gallery.css">
+</head>
+<body data-page="gallery">
+<div id="navbar-placeholder"></div>
+<section class="page-hero"><div class="ph-bg"></div><div class="ph-grid"></div>
+  <div class="ph-content">
+    <div class="eyebrow">Portfolio</div>
+    <h1 class="section-title">Our <span class="accent">Gallery</span></h1>
+    <p class="section-sub">Every frame, every beat, every moment — 500+ events captured beautifully.</p>
+  </div>
+</section>
+<section class="gallery-section">
+  <div class="container">
+    <div class="gallery-controls">
+      <p class="g-count" id="gallery-count"></p>
+      <div class="view-toggle">
+        <button class="view-btn active" data-view="grid" title="Grid"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg></button>
+        <button class="view-btn" data-view="list" title="List"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg></button>
+      </div>
+    </div>
+    <div style="display:flex;gap:var(--s4);align-items:center;flex-wrap:wrap;margin-bottom:var(--s3)">
+      <span style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text-4);white-space:nowrap">Category</span>
+      <div class="filter-bar" id="gal-cat" style="margin:0"></div>
+    </div>
+    <div style="display:flex;gap:var(--s4);align-items:center;flex-wrap:wrap;margin-bottom:var(--s7)">
+      <span style="font-size:10px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--text-4);white-space:nowrap">Type</span>
+      <div class="filter-bar" id="gal-type" style="margin:0"></div>
+    </div>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </div>
+</section>
+<section class="section section-alt"><div class="container"><div class="cta-banner reveal"><div class="cta-inner">
+  <h2 class="section-title" style="color:#fff;text-align:center">Want Your Event <span class="accent">Here?</span></h2>
+  <p class="section-sub" style="color:rgba(255,255,255,.5);text-align:center;margin-inline:auto">Book with LUMIX and your event becomes part of our legacy.</p>
+  <div class="cta-actions"><a href="contact.html" class="btn btn-gold btn-lg">Book Now</a></div>
+</div></div></div></section>
+<div id="footer-placeholder"></div>
+<script src="js/data/data.js"></script><script src="js/components/Components.js"></script>
+<script src="js/main.js"></script><script src="js/pages.js"></script>
+</body></html>
