@@ -82,9 +82,9 @@ window.LUMIX = {
 
     <!-- Logo -->
     <a href="${root}index.html" class="nav-logo">
-      <div class="nav-logo-mark">L</div>
+      <div class="nav-logo-mark">PK</div>
       <div class="nav-logo-text">
-        <span class="nav-logo-name">PK ENTERTAINMENT</span>
+        <span class="nav-logo-name">ENTERTAINMENT</span>
         <span class="nav-logo-tag">Events · NETHERLAND</span>
       </div>
     </a>
@@ -502,10 +502,6 @@ window.LUMIX = {
 
     <!-- Right actions -->
     <div class="nav-actions">
-      <a href="tel:+32 483471544" class="nav-phone" aria-label="Call us">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.61a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .88h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l.91-.91a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.42z"/></svg>
-        ${ph}
-      </a>
       <div class="nav-divider"></div>
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme" title="Switch theme">
         <span class="tt-sun">
@@ -515,7 +511,6 @@ window.LUMIX = {
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
         </span>
       </button>
-      <a href="${root}contact.html" class="nav-cta">Get Free Quote</a>
       <button class="hamburger" id="hamburger" aria-label="Menu">
         <span></span><span></span><span></span>
       </button>
@@ -647,7 +642,7 @@ window.LUMIX = {
       <div class="ft-brand">
         <div class="ft-logo">
           <div class="ft-logo-mark">L</div>
-          <span class="ft-logo-name">LUMIX</span>
+          <span class="ft-logo-name">PK</span>
         </div>
         <p class="ft-tagline">Netherland's premium destination for DJ services, cinematic photography, flawless event management and professional equipment rentals.</p>
         <div class="ft-socials">

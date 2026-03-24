@@ -410,21 +410,44 @@
 /* ══════════════════════════════════════════════════════════
    MEGA WEDDING FULL (4-col)
 ══════════════════════════════════════════════════════════ */
+
+.nav-links {
+  position: relative;
+}
+
 .mega-wedding-full {
-  position: absolute; top: calc(100% + 1px);
-  left: 50%; transform: translateX(-55%) translateY(-8px);
-  background: var(--surface); width: min(1060px, 96vw);
-  border: 1px solid var(--border-2); border-top: 3px solid var(--gold);
-  border-radius: 0 0 var(--r-xl) var(--r-xl); box-shadow: var(--shadow-lg);
-  opacity: 0; pointer-events: none;
-  transition: opacity var(--mid) var(--ease), transform var(--mid) var(--ease);
+  position: absolute;
+  top: calc(100% + 1px);
+
+  left: 100%;
+  transform: translateX(-50%) translateY(-8px);
+
+  background: var(--surface);
+  width: min(1060px, 96vw);
+
+  border: 1px solid var(--border-2);
+  border-top: 3px solid var(--gold);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  box-shadow: var(--shadow-lg);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity var(--mid) var(--ease),
+              transform var(--mid) var(--ease);
+
   display: grid;
   grid-template-columns: 1fr 1px 1fr 1px 1fr 220px;
   grid-template-rows: auto auto;
+
+  max-height: 80vh;
+  overflow-y: auto;
 }
+
 .nav-item.open > .mega-wedding-full {
-  opacity: 1; pointer-events: all;
-  transform: translateX(-55%) translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Column layout */
@@ -539,16 +562,38 @@
    MEGA PHOTOGRAPHY RICH
 ══════════════════════════════════════════════════════════ */
 .mega-photo-rich {
-  position: absolute; top: calc(100% + 1px); left: 0;
-  width: min(680px, 94vw); background: var(--surface);
-  border: 1px solid var(--border-2); border-top: 3px solid var(--gold);
-  border-radius: 0 0 var(--r-xl) var(--r-xl); box-shadow: var(--shadow-lg);
-  opacity: 0; pointer-events: none; transform: translateY(-8px);
-  transition: opacity var(--mid) var(--ease), transform var(--mid) var(--ease);
-  display: grid; grid-template-columns: 1fr 1px 1fr;
+  position: absolute;
+  top: calc(100% + 1px);
+
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+
+  width: min(680px, 94vw);
+  background: var(--surface);
+
+  border: 1px solid var(--border-2);
+  border-top: 3px solid var(--gold);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  box-shadow: var(--shadow-lg);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity var(--mid) var(--ease),
+              transform var(--mid) var(--ease);
+
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+
+  /* ⭐ ADD THESE */
+  max-height: 80vh;
+  overflow-y: auto;
 }
+
 .nav-item.open > .mega-photo-rich {
-  opacity: 1; pointer-events: all; transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
 }
 .mpr-col { padding: var(--s6) var(--s5); display: flex; flex-direction: column; gap: var(--s2); }
 .mpr-divider { width: 1px; background: var(--border-3); margin: var(--s4) 0; }
@@ -616,16 +661,38 @@
    MEGA DJ & SOUND
 ══════════════════════════════════════════════════════════ */
 .mega-dj {
-  position: absolute; top: calc(100% + 1px); left: 0;
-  width: min(660px, 94vw); background: var(--surface);
-  border: 1px solid var(--border-2); border-top: 3px solid var(--gold);
-  border-radius: 0 0 var(--r-xl) var(--r-xl); box-shadow: var(--shadow-lg);
-  opacity: 0; pointer-events: none; transform: translateY(-8px);
-  transition: opacity var(--mid) var(--ease), transform var(--mid) var(--ease);
-  display: grid; grid-template-columns: 1fr 1px 1fr;
+  position: absolute;
+  top: calc(100% + 1px);
+
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+
+  width: min(660px, 94vw);
+  background: var(--surface);
+
+  border: 1px solid var(--border-2);
+  border-top: 3px solid var(--gold);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  box-shadow: var(--shadow-lg);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity var(--mid) var(--ease),
+              transform var(--mid) var(--ease);
+
+  display: grid;
+  grid-template-columns: 1fr 1px 1fr;
+
+  /* ⭐ ADD THESE */
+  max-height: 80vh;
+  overflow-y: auto;
 }
+
 .nav-item.open > .mega-dj {
-  opacity: 1; pointer-events: all; transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
 }
 .mdj-col { padding: var(--s6) var(--s5); display: flex; flex-direction: column; gap: var(--s2); }
 .mdj-divider { width: 1px; background: var(--border-3); margin: var(--s4) 0; }
@@ -694,16 +761,28 @@
    DROPDOWN — EVENTS (2×2 grid)
 ══════════════════════════════════════════════════════════ */
 .dd-events {
-  position: absolute; top: calc(100% + 1px); left: 0;
-  width: min(520px, 94vw); background: var(--surface);
-  border: 1px solid var(--border-2); border-top: 3px solid var(--gold);
-  border-radius: 0 0 var(--r-xl) var(--r-xl); box-shadow: var(--shadow-lg);
-  padding: 0; overflow: hidden;
-  opacity: 0; pointer-events: none; transform: translateY(-8px);
-  transition: opacity var(--mid) var(--ease), transform var(--mid) var(--ease);
+  position: absolute;
+  top: calc(100% + 1px);
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+
+  width: min(520px, 94vw);
+  background: var(--surface);
+  border: 1px solid var(--border-2);
+  border-top: 3px solid var(--gold);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  box-shadow: var(--shadow-lg);
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity var(--mid) var(--ease),
+              transform var(--mid) var(--ease);
 }
 .nav-item.open > .dd-events {
-  opacity: 1; pointer-events: all; transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-50%) translateY(0);
 }
 .dd-events-grid {
   display: grid; grid-template-columns: 1fr 1fr; gap: 1px;
@@ -741,16 +820,34 @@
    DROPDOWN — RENTALS (3-col)
 ══════════════════════════════════════════════════════════ */
 .dd-rentals {
-  position: absolute; top: calc(100% + 1px); left: -20px;
-  width: min(620px, 94vw); background: var(--surface);
-  border: 1px solid var(--border-2); border-top: 3px solid var(--gold);
-  border-radius: 0 0 var(--r-xl) var(--r-xl); box-shadow: var(--shadow-lg);
-  padding: 0; overflow: hidden;
-  opacity: 0; pointer-events: none; transform: translateY(-8px);
-  transition: opacity var(--mid) var(--ease), transform var(--mid) var(--ease);
+  position: absolute;
+  top: calc(100% + 1px);
+
+  left: 50%;
+  transform: translateX(-50%) translateY(-8px);
+
+  width: min(620px, 94vw);
+  background: var(--surface);
+
+  border: 1px solid var(--border-2);
+  border-top: 3px solid var(--gold);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  box-shadow: var(--shadow-lg);
+
+  padding: 0;
+  overflow: hidden;
+
+  opacity: 0;
+  pointer-events: none;
+
+  transition: opacity var(--mid) var(--ease),
+              transform var(--mid) var(--ease);
 }
+
 .nav-item.open > .dd-rentals {
-  opacity: 1; pointer-events: all; transform: translateY(0);
+  opacity: 1;
+  pointer-events: all;
+  transform: translateX(-60%) translateY(0);
 }
 .ddr-head {
   display: flex; align-items: center; justify-content: space-between;
