@@ -96,7 +96,7 @@ window.LUMIX_DATA = {
   ],
 
   testimonials: [
-    {id:"t1", name:"Priya Sharma",  role:"Bride, Mumbai",       initials:"P", stars:5, quote:"LUMIX made our wedding absolutely magical. The DJ kept the floor packed all night and the photos are beyond stunning. Every detail was handled perfectly."},
+    {id:"t1", name:"Priya Sharma",  role:"Bride, Netherland",       initials:"P", stars:5, quote:"LUMIX made our wedding absolutely magical. The DJ kept the floor packed all night and the photos are beyond stunning. Every detail was handled perfectly."},
     {id:"t2", name:"Rahul Mehta",   role:"CEO, Infoveda Tech",  initials:"R", stars:5, quote:"Our product launch was a massive success. The AV setup, stage design and overall production quality was world-class. Highly recommend for corporate events."},
     {id:"t3", name:"Ananya Singh",  role:"Birthday Host, Pune", initials:"A", stars:5, quote:"Booked the Gold Vibe DJ package and rented the laser and CO₂ cannon. My guests are still talking about it weeks later. Absolute fire!"},
     {id:"t4", name:"Vikram Nair",   role:"Event Planner, Goa",  initials:"V", stars:5, quote:"I work with vendors regularly and LUMIX stands out for professionalism. Equipment is well-maintained and the team is always punctual."},
@@ -105,10 +105,10 @@ window.LUMIX_DATA = {
   ],
 
   meta: {
-    phone:     "+91 98765 43210",
-    email:     "hello@lumixevents.in",
-    address:   "14B, Andheri Industrial Estate, Mumbai, MH 400072",
+    phone:     "+32 483471544",
+    email:     "info@pkentertainment.in",
+    address:   "Belgium Netherland",
     instagram: "#", facebook: "#", youtube: "#",
-    whatsapp:  "https://wa.me/919876543210",
+    whatsapp:  "https://wa.me/32483471544",
   },
 };

@@ -40,8 +40,8 @@ window.LUMIX = {
   /* ── Build nav HTML ──────────────────────────────────── */
   _nav(root) {
     const m = window.LUMIX_DATA?.meta || {};
-    const ph = m.phone || '+91 98765 43210';
-    const wa = m.whatsapp || 'https://wa.me/919876543210';
+    const ph = m.phone || '+32 483471544';
+    const wa = m.whatsapp || 'https://wa.me/+32483471544';
 
     return `
 <!-- ░░ TOPBAR ░░ -->
@@ -50,7 +50,7 @@ window.LUMIX = {
     <div class="topbar-items">
       <div class="topbar-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.61a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .88h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l.91-.91a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.42z"/></svg>
-        <a href="tel:+919876543210">${ph}</a>
+        <a href="tel:+32 483471544">${ph}</a>
       </div>
       <div class="topbar-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
@@ -58,7 +58,7 @@ window.LUMIX = {
       </div>
       <div class="topbar-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-        Mumbai, Maharashtra
+       Netherland
       </div>
       <div class="topbar-item">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
@@ -84,8 +84,8 @@ window.LUMIX = {
     <a href="${root}index.html" class="nav-logo">
       <div class="nav-logo-mark">L</div>
       <div class="nav-logo-text">
-        <span class="nav-logo-name">LUMIX</span>
-        <span class="nav-logo-tag">Events · Mumbai</span>
+        <span class="nav-logo-name">PK ENTERTAINMENT</span>
+        <span class="nav-logo-tag">Events · NETHERLAND</span>
       </div>
     </a>
 
@@ -456,7 +456,7 @@ window.LUMIX = {
         <div class="dropdown dd-rentals">
           <div class="ddr-head">
             <span>🔊 Equipment Rentals</span>
-            <span class="ddr-tag">Mumbai Delivery · Daily Rates</span>
+            <span class="ddr-tag">Netherland Delivery · Daily Rates</span>
           </div>
           <div class="ddr-grid">
             <div class="ddr-cat">
@@ -482,7 +482,7 @@ window.LUMIX = {
             </div>
           </div>
           <div class="ddr-footer">
-            <span>✅ All items include delivery, setup & pickup within Mumbai</span>
+            <span>✅ All items include delivery, setup & pickup within Netherland</span>
             <a href="${root}services/rentals.html">View Full Inventory →</a>
           </div>
         </div>
@@ -502,7 +502,7 @@ window.LUMIX = {
 
     <!-- Right actions -->
     <div class="nav-actions">
-      <a href="tel:+919876543210" class="nav-phone" aria-label="Call us">
+      <a href="tel:+32 483471544" class="nav-phone" aria-label="Call us">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.61a19.79 19.79 0 01-3.07-8.68A2 2 0 012 .88h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8.09a16 16 0 006 6l.91-.91a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15.42z"/></svg>
         ${ph}
       </a>
@@ -532,7 +532,7 @@ window.LUMIX = {
   <div class="m-drawer-head">
     <a href="${root}index.html" class="nav-logo">
       <div class="nav-logo-mark">L</div>
-      <div class="nav-logo-text"><span class="nav-logo-name">LUMIX</span><span class="nav-logo-tag">Events · Mumbai</span></div>
+      <div class="nav-logo-text"><span class="nav-logo-name">PK ENTERTAINMENT</span><span class="nav-logo-tag">Events · Netherland</span></div>
     </a>
     <button class="m-drawer-close" id="drawer-close">✕</button>
   </div>
@@ -649,7 +649,7 @@ window.LUMIX = {
           <div class="ft-logo-mark">L</div>
           <span class="ft-logo-name">LUMIX</span>
         </div>
-        <p class="ft-tagline">Mumbai's premium destination for DJ services, cinematic photography, flawless event management and professional equipment rentals.</p>
+        <p class="ft-tagline">Netherland's premium destination for DJ services, cinematic photography, flawless event management and professional equipment rentals.</p>
         <div class="ft-socials">
           <a href="${d.instagram||'#'}" class="ft-soc" aria-label="Instagram">📸</a>
           <a href="${d.facebook||'#'}"  class="ft-soc" aria-label="Facebook">📘</a>
@@ -680,10 +680,10 @@ window.LUMIX = {
       <div class="ft-col">
         <h4>Contact</h4>
         <ul>
-          <li class="ft-contact-row"><span class="ft-contact-icon">📞</span><span>${d.phone||'+91 98765 43210'}</span></li>
-          <li class="ft-contact-row"><span class="ft-contact-icon">✉️</span><span>${d.email||'hello@lumixevents.in'}</span></li>
-          <li class="ft-contact-row"><span class="ft-contact-icon">📍</span><span>${d.address||'Andheri, Mumbai 400072'}</span></li>
-          <li class="ft-contact-row"><span class="ft-contact-icon">⏰</span><span>7 Days · 9am–10pm IST</span></li>
+          <li class="ft-contact-row"><span class="ft-contact-icon">📞</span><span>${d.phone||'+32 483471544'}</span></li>
+          <li class="ft-contact-row"><span class="ft-contact-icon">✉️</span><span>${d.email||'info@pkentertainment.in'}</span></li>
+          <li class="ft-contact-row"><span class="ft-contact-icon">📍</span><span>${d.address||'Netherland'}</span></li>
+          <li class="ft-contact-row"><span class="ft-contact-icon">⏰</span><span>7 Days · 9am–10pm</span></li>
           <li><a href="${root}gallery.html" style="color:var(--gold);font-weight:600">Browse Gallery →</a></li>
         </ul>
       </div>

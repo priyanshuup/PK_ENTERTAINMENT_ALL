@@ -147,7 +147,7 @@ class Modal {
     const root = location.pathname.includes('/services/') ? '../' : '';
     document.getElementById('m-acts').innerHTML = `
       <a href="${root}contact.html" class="btn btn-gold btn-lg">Book Now →</a>
-      <a href="https://wa.me/919876543210" class="btn btn-ghost" target="_blank">💬 WhatsApp</a>`;
+      <a href="https://wa.me/32483471544" class="btn btn-ghost" target="_blank">💬 WhatsApp</a>`;
     this.bd.classList.add('open');
     document.body.style.overflow = 'hidden';
   }
